@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Nvidia smoke testing">
+    <parameter name="url" value="https://www.asus.com/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="windows"></parameter>
+    <test name="Login test">
+        <classes>
+            <class name="Apps.Abdessalam.Asus.LogNegativeT"></class>
+            <class name="Apps.Abdessalam.Asus.LogPositiveT"></class>
+            <class name="Apps.Abdessalam.Asus.Search"></class>
+            <class name="Apps.Abdessalam.Asus.AMD_Motherboards"></class>
+            <class name="Apps.Abdessalam.Asus.Intel_Motherboards"></class>
+            <class name="Apps.Abdessalam.Asus.HighPerfLaptop"></class>
+            <class name="Apps.Abdessalam.Asus.LaptopInStock"></class>
+            <class name="Apps.Abdessalam.Asus.ProArt_Motherboards"></class>
+            <class name="Apps.Abdessalam.Asus.TufGaming"></class>
+            <class name="Apps.Abdessalam.Asus.Community"></class>
+
+
+
+
+        </classes>
+
+    </test>
+</suite>
+
