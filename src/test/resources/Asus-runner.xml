@@ -7,16 +7,27 @@
     <parameter name="os" value="windows"></parameter>
     <test name="Login test">
         <classes>
-            <class name="Apps.Abdessalam.Asus.LogNegativeT"></class>
-            <class name="Apps.Abdessalam.Asus.LogPositiveT"></class>
-            <class name="Apps.Abdessalam.Asus.Search"></class>
+            <class name="Apps.Abdessalam.Asus.AddToCard"></class>
             <class name="Apps.Abdessalam.Asus.AMD_Motherboards"></class>
-            <class name="Apps.Abdessalam.Asus.Intel_Motherboards"></class>
-            <class name="Apps.Abdessalam.Asus.HighPerfLaptop"></class>
-            <class name="Apps.Abdessalam.Asus.LaptopInStock"></class>
-            <class name="Apps.Abdessalam.Asus.ProArt_Motherboards"></class>
-            <class name="Apps.Abdessalam.Asus.TufGaming"></class>
+            <class name="Apps.Abdessalam.Asus.CollSys"></class>
             <class name="Apps.Abdessalam.Asus.Community"></class>
+            <class name="Apps.Abdessalam.Asus.Eyecare"></class>
+            <class name="Apps.Abdessalam.Asus.FindDriver"></class>
+            <class name="Apps.Abdessalam.Asus.GMobile"></class>
+            <class name="Apps.Abdessalam.Asus.HighPerfLaptop"></class>
+            <class name="Apps.Abdessalam.Asus.Intel_Motherboards"></class>
+            <class name="Apps.Abdessalam.Asus.LaptopInStock"></class>
+            <class name="Apps.Abdessalam.Asus.LogPositiveT"></class>
+            <class name="Apps.Abdessalam.Asus.LogPositiveT"></class>
+            <class name="Apps.Abdessalam.Asus.MicePad"></class>
+            <class name="Apps.Abdessalam.Asus.PcHand"></class>
+            <class name="Apps.Abdessalam.Asus.PcsHome"></class>
+            <class name="Apps.Abdessalam.Asus.Keyboardwireless"></class>
+            <class name="Apps.Abdessalam.Asus.ProArt_Motherboards"></class>
+            <class name="Apps.Abdessalam.Asus.Search"></class>
+            <class name="Apps.Abdessalam.Asus.TufGaming"></class>
+            <class name="Apps.Abdessalam.Asus.WebPD"></class>
+
 
 
 

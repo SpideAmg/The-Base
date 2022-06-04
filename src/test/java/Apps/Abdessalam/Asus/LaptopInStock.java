@@ -10,6 +10,12 @@ public class LaptopInStock extends CommonAPI {
         hoverOver("#wrapperDesktop > div.HeaderDesktop__headerLayerTwo__356nX > div > div.HeaderDesktop__navContainer__2TkWh > nav > div:nth-child(6) > span");
         click("#wrapperDesktop > div.HeaderDesktop__headerLayerTwo__356nX > div > div.HeaderDesktop__navContainer__2TkWh > nav > div:nth-child(8) > div > div.HeaderLevelOneDropDownMenu__innerWrapper__IrKxh > ul:nth-child(3) > li:nth-child(2) > a > div");
         click("#__layout > div > div:nth-child(3) > div > div.LevelTwoSeriesPage__layoutSeries__3csDE > div.LevelTwoSeriesPage__productFilterWrapper__cwV3d > div.LevelTwoSeriesPage__productFilter__-7iLA > div.LevelTwoSeriesPage__productList__4xq7V > div > div.SeriesFilter__filterSection__dOwkx.SeriesFilter__orderItem__3fWdO > div.SeriesFilter__listContainer__1jYq9.SeriesFilter__expand__2b_a8 > div:nth-child(1) > div > div.FilterCheckBox__wrapper__2QsXG > label");
-        waitFor(5);
+        click("//*[@id=\"__layout\"]/div/div[2]/div/div[4]/div[2]/div[1]/div[2]/div/div[5]");
+        waitFor(2);
+        click("//*[@id=\"__layout\"]/div/div[2]/div/div[4]/div[2]/div[1]/div[2]/div/div[5]/div[2]/div[3]/div/div[1]/label");
+        waitFor(2);
+//        click("#__layout > div > div:nth-child(3) > div > div.LevelTwoSeriesPage__layoutSeries__3csDE > div.LevelTwoSeriesPage__productFilterWrapper__cwV3d > div.LevelTwoSeriesPage__productFilter__-7iLA > div.LevelTwoSeriesPage__productList__4xq7V > div > div:nth-child(12)");
+//        waitFor(2);
+//        click("#__layout > div > div:nth-child(3) > div > div.LevelTwoSeriesPage__layoutSeries__3csDE > div.LevelTwoSeriesPage__productFilterWrapper__cwV3d > div.LevelTwoSeriesPage__productFilter__-7iLA > div.LevelTwoSeriesPage__productList__4xq7V > div > div:nth-child(12) > div.SeriesFilter__listContainer__1jYq9.SeriesFilter__expand__2b_a8 > div:nth-child(3) > div > div.FilterCheckBox__wrapper__2QsXG > label");
     }
 }
