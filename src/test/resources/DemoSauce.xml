@@ -7,7 +7,7 @@
     <parameter name="os" value="mac"></parameter>
     <test name="search">
         <classes>
-            <class name="DemoSauceWebsite.dropdownAllitiems"></class>
+            <class name="DemoSauceWebsite.checkout"></class>
 
         </classes>
 
