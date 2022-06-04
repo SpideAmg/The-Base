@@ -10,5 +10,8 @@
         <module name="TheBaseBootCampProject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="The-Base" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

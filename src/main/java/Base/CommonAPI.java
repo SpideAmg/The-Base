@@ -1,5 +1,10 @@
 package Base;
 
+<<<<<<< HEAD
+=======
+
+import org.checkerframework.checker.units.qual.A;
+>>>>>>> a881f94982351f198abacc2f458eb66131753965
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +19,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class CommonAPI {
+
 
     static String currentDir = System.getProperty("user.dir");
 
@@ -31,11 +37,16 @@ public class CommonAPI {
 
         }else if (os.equalsIgnoreCase("mac")){
             if (browser.equalsIgnoreCase("chrome")){
+<<<<<<< HEAD
 
                 System.setProperty("webdriver.chrome.driver", currentDir+"/driver/mac/chromedriver");
+=======
+                System.setProperty("webdriver.chrome.driver", currentDir+"/driver/mac/chromedriver");
+               // System.setProperty("webdriver.chrome.driver","/Users/admin/Desktop/The-Base/driver/mac/chromedriver");
+>>>>>>> a881f94982351f198abacc2f458eb66131753965
                 driver = new ChromeDriver();
             }else if (browser.equalsIgnoreCase("firefox")){
-                System.setProperty("webdriver.gecko.driver", currentDir+"\\driver\\mac\\geckodriver");
+                System.setProperty("webdriver.gecko.driver", currentDir+"/driver/mac/geckodriver");
                 driver = new FirefoxDriver();
             }
         }else if (os.equalsIgnoreCase("linux")){
@@ -57,10 +68,10 @@ public class CommonAPI {
         driver.get(url);
     }
 
-    @AfterMethod
-    public void tearDown(){
-        driver.close();
-    }
+          @AfterMethod
+          public void tearDown(){
+          driver.close();
+  }
 
     public String getPageTitle(){
         return driver.getTitle();
